@@ -40,17 +40,12 @@ cd atlas
 
 2. Install dependencies:
 ```bash
-pnpm install
+npm install
 ```
 
-3. Set up environment variables:
+3. Run the development server:
 ```bash
-cp .env.example .env.local
-```
-
-4. Run the development server:
-```bash
-pnpm dev
+npm dev
 ```
 
 ## Color Theme Configuration
