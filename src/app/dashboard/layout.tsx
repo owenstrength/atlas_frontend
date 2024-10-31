@@ -60,7 +60,7 @@ export default function DashboardLayout({
             Quiz
           </Button>
         </nav>
-        <div className="absolute bottom-4 left-4 right-4 space-y-2">
+        <div className="absolute bottom-4 space-y-2 p-4">
           <ThemeToggle />
           <Button variant="ghost" className="w-full justify-start text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300">
             <LogOut className="mr-2 h-4 w-4" />
@@ -72,7 +72,9 @@ export default function DashboardLayout({
       {/* Main content */}
       <div className="flex-1 overflow-auto">
         <div className="h-16 border-b border-border/40 flex items-center justify-between px-6">
-          <h1 className="text-2xl font-semibold">Dashboard</h1>
+          <Link href="/dashboard">
+            <h1 className="text-2xl font-semibold cursor-pointer">Dashboard</h1>
+          </Link>
         </div>
         <main className="p-6">
           {children}
