@@ -13,16 +13,16 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl leading-normal bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-violet-600 dark:from-blue-400 dark:to-violet-400 pb-2">
             Transform Your Documents into Knowledge
           </h1>
-          <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+          <p className="mx-auto max-w-[600px] text-gray-800 md:text-xl dark:text-gray-200">
             Upload, search, and chat with your documents using natural language. Atlas makes your content interactive and accessible.
           </p>
           </div>
 
           <div className="space-x-4">
             <Link href="/auth/signup">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 dark:bg-violet-600 dark:hover:bg-violet-700">
-                Get Started <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 dark:bg-violet-600 dark:hover:bg-violet-700 text-white">
+              Get Started <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
             </Link>
             <Link href="/auth/login">
               <Button variant="outline" size="lg">

@@ -47,7 +47,7 @@ const Header = () => {
               </Button>
             </Link>
             <Link href="/auth/signup">
-              <Button className="text-sm bg-blue-600 hover:bg-blue-700 dark:bg-violet-600 dark:hover:bg-violet-700">
+              <Button className="text-sm bg-blue-600 hover:bg-blue-700 dark:bg-violet-600 dark:hover:bg-violet-700 text-white">
                 Get Started
               </Button>
             </Link>
